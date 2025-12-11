@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "iplist-youtube"
+name = "iplist-jetbrains"
 version = "0.2.0"
-description = "An attempt to list all Youtube IPs at one place."
+description = "An attempt to list all JetBrains IPs at one place."
 authors = ["Md. Touhidur Rahman <touhidurrr@pm.me>"]
 license = "BSD-3-Clause"
 readme = "README.md"

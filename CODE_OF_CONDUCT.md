@@ -1,5 +1,5 @@
 
-# iplist-youtube Code of Conduct
+# iplist-jetbrains Code of Conduct
 
 ## Our Pledge
 
