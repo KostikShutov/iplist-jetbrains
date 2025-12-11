@@ -1,25 +1,25 @@
-# iplist-youtube
-An attempt to list all IPs that YouTube uses.
+# iplist-jetbrains
+An attempt to list all IPs that JetBrains uses.
 
-This list attempts to keep all ipv4 and ipv6 addresses used by YouTube.
+This list attempts to keep all ipv4 and ipv6 addresses used by JetBrains.
 We use DNS Lookups to achieve this and the lists are automatically updated approximately every 5 minutes.
 The project is currently **STABLE BETA.**
 So, not all IPs might be available.
 At present, it has a collection of
-**27786**
-YouTube IPs.
+**0**
+JetBrains IPs.
 
 # Lists
-- [ipv4.txt](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/ipv4.txt)
-- [ipv6.txt](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/ipv6.txt)
-- [cidr4.txt](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/cidr4.txt)
-- [cidr6.txt](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/cidr6.txt)
-- [routeros.rsc](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/routeros.rsc) ***NEW!***
-- [routerosv4.rsc](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/routerosv4.rsc) ***NEW!***
-- [routerosv6.rsc](https://raw.githubusercontent.com/touhidurrr/iplist-youtube/main/lists/routerosv6.rsc) ***NEW!***
+- [ipv4.txt](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/ipv4.txt)
+- [ipv6.txt](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/ipv6.txt)
+- [cidr4.txt](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/cidr4.txt)
+- [cidr6.txt](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/cidr6.txt)
+- [routeros.rsc](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/routeros.rsc) ***NEW!***
+- [routerosv4.rsc](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/routerosv4.rsc) ***NEW!***
+- [routerosv6.rsc](https://raw.githubusercontent.com/KostikShutov/iplist-jetbrains/main/lists/routerosv6.rsc) ***NEW!***
 
 Used open source lists:
-  1. https://github.com/nickspaargaren/no-google/blob/master/categories/youtubeparsed
+  1. https://youtrack.jetbrains.com/articles/SUPPORT-A-288/Whats-the-IP-allowlist-of-IntelliJ-IDE-in-case-of-firewall-policy-or-restricted-network
 
 #### How to make the lists manually.
 There are two scripts in the repository root, `list_generator.sh` and `list_generator.py`.

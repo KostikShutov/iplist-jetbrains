@@ -1,10 +1,13 @@
 #!/bin/python3
+import re
+import json
 import asyncio
 from ipaddress import IPv4Address, IPv6Address, ip_address
 from os import getenv
 from random import choice, shuffle
 from socket import has_ipv6
-from urllib.request import urlretrieve as download
+from urllib.request import urlopen
+from urllib.parse import urlparse
 
 from dns import asyncresolver
 
@@ -60,8 +63,8 @@ def get_ip_fetcher():
     ares.nameservers = dns_resolver_ips
 
   # specify timeout and lifetime
-  ares.timeout = 10
-  ares.lifetime = 10
+  ares.timeout = 120
+  ares.lifetime = 120
 
   # make ip_fetcher
   async def ip_fetcher(domain: str, query: str, ipList: IPList):
@@ -114,12 +117,27 @@ def read_ips(
 
   return list(ipv4Set), list(ipv6Set)
 
-# download youtubeparsed
 
+def create_jetbrainsparsed() -> None:
+  content = urlopen(constants.JETBRAINS_URL).read().decode("utf-8")
+  content = json.loads(content)
+  content = content.get("content", "")
+  links = re.findall(r"<(https?://[^>]+)>", content)
+  domains = []
 
-def download_youtubeparsed():
-  url = 'https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/youtubeparsed'
-  download(url, '.youtubeparsed')
+  for link in links:
+    domain = urlparse(link).netloc
+
+    if domain.startswith("www."):
+      domain = domain[4:]
+
+    domains.append(domain)
+
+  domains = list(dict.fromkeys(domains))
+
+  with open(".jetbrainsparsed", "w", encoding="utf-8") as f:
+    for domain in domains:
+      f.write(domain + "\n")
 
 
 def get_coroutines(
@@ -129,8 +147,8 @@ def get_coroutines(
   # make a list of threads
   coroutines = []
 
-  # open the youtubeparsed file
-  with open('.youtubeparsed', mode='r', encoding='utf-8') as f:
+  # open the jetbrainsparsed file
+  with open('.jetbrainsparsed', mode='r', encoding='utf-8') as f:
 
     # for each url in the file
     for url in f.readlines():
@@ -179,8 +197,8 @@ async def main():
   previousIpv4s = len(ipv4List)
   previousIpv6s = len(ipv6List)
 
-  # download youtubeparsed
-  download_youtubeparsed()
+  # create jetbrainsparsed
+  create_jetbrainsparsed()
 
   # get ip fetcher
   ip_fetcher = get_ip_fetcher()

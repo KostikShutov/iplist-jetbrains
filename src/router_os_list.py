@@ -15,11 +15,11 @@ def main():
   with open(constants.ROUTER_OS_V4_LIST_PATH, mode='w', encoding='utf-8') as f4:
     router_os_ipv4_rules: list[str] = [
         '/ip firewall address-list\n',
-        'remove [find list=youtube]\n'
+        'remove [find list=jetbrains]\n'
     ]
 
     for cidr4 in cidr4_list:
-      router_os_ipv4_rules.append(f'add list=youtube address={cidr4}\n')
+      router_os_ipv4_rules.append(f'add list=jetbrains address={cidr4}\n')
 
     f4.writelines(router_os_ipv4_rules)
 
@@ -34,11 +34,11 @@ def main():
   with open(constants.ROUTER_OS_V6_LIST_PATH, mode='w', encoding='utf-8') as f6:
     router_os_ipv6_rules: list[str] = [
         '/ipv6 firewall address-list\n'
-        'remove [find list=youtube]\n'
+        'remove [find list=jetbrains]\n'
     ]
 
     for cidr6 in cidr6_list:
-      router_os_ipv6_rules.append(f'add list=youtube address={cidr6}\n')
+      router_os_ipv6_rules.append(f'add list=jetbrains address={cidr6}\n')
 
     f6.writelines(router_os_ipv6_rules)
 

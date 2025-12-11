@@ -7,6 +7,8 @@ on:
       - "**.sh"
       - "**.yml"
       - "**.toml"
+  schedule:
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 jobs:
@@ -26,15 +28,6 @@ jobs:
       - name: Check Python3 Version
         run: python3 --version
 
-      #      - name: Run list_generator.sh
-      #        run: |
-      #          echo 'previous state ...'
-      #          wc -l ipv?_list.txt
-      #          chmod +x list_generator.sh
-      #          ./src/list_generator.sh
-      #          echo 'new state ...'
-      #          wc -l ipv?_list.txt
-
       - name: Install Dependencies
         run: |
           pip3 install --upgrade pip
@@ -52,12 +45,12 @@ jobs:
       - name: Update IP count in README.md
         run: |
           TOTAL_IPS=$(wc -l lists/ipv?.txt | grep -oP '\d+(?=\s+total)')
-          sed -i "s|$(cat README.md | grep -oP '\d+(?=\*\*$)')|$TOTAL_IPS|1" README.md
+          sed -i "s/^\*\*[0-9][0-9]*\*\*$/**$TOTAL_IPS**/" README.md
 
       - name: Commit changes
         run: |
-          git config --local user.email '46617994+touhidurrr@users.noreply.github.com'
-          git config --local user.name 'touhidurrr'
+          git config --local user.email '22249844+KostikShutov@users.noreply.github.com'
+          git config --local user.name 'KostikShutov'
           git add lists/ README.md
           git commit -m 'Updated Lists [Automated]'
           git pull
