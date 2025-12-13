@@ -1,6 +1,7 @@
 /ip firewall address-list
 remove [find list=jetbrains]
 add list=jetbrains address=3.160.150.0/24
+add list=jetbrains address=3.161.150.0/24
 add list=jetbrains address=3.161.225.0/24
 add list=jetbrains address=3.162.163.0/24
 add list=jetbrains address=3.162.174.0/24
