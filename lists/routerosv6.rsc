@@ -158,11 +158,19 @@ add list=jetbrains address=2600:9000:2079:b800::/64
 add list=jetbrains address=2600:9000:207c:1600::/64
 add list=jetbrains address=2600:9000:207c:2a00::/64
 add list=jetbrains address=2600:9000:207c:5a00::/64
+add list=jetbrains address=2600:9000:207c:6800::/64
 add list=jetbrains address=2600:9000:207c:7800::/64
 add list=jetbrains address=2600:9000:207c:7c00::/64
 add list=jetbrains address=2600:9000:207c:8400::/64
+add list=jetbrains address=2600:9000:207c:9200::/64
 add list=jetbrains address=2600:9000:207c:9600::/64
+add list=jetbrains address=2600:9000:207c:a000::/64
 add list=jetbrains address=2600:9000:207c:b000::/64
+add list=jetbrains address=2600:9000:207c:b200::/64
+add list=jetbrains address=2600:9000:207c:d200::/64
+add list=jetbrains address=2600:9000:207c:da00::/64
+add list=jetbrains address=2600:9000:207c:f000::/64
+add list=jetbrains address=2600:9000:207c:fe00::/64
 add list=jetbrains address=2600:9000:20a0:200::/64
 add list=jetbrains address=2600:9000:20a0:a00::/64
 add list=jetbrains address=2600:9000:20a0:1000::/64
@@ -1357,6 +1365,7 @@ add list=jetbrains address=2600:9000:288b:4200::/64
 add list=jetbrains address=2600:9000:288b:4400::/64
 add list=jetbrains address=2600:9000:288b:4600::/64
 add list=jetbrains address=2600:9000:288b:4a00::/64
+add list=jetbrains address=2600:9000:288b:4c00::/64
 add list=jetbrains address=2600:9000:288b:4e00::/64
 add list=jetbrains address=2600:9000:288b:5000::/64
 add list=jetbrains address=2600:9000:288b:5400::/64
@@ -1367,6 +1376,7 @@ add list=jetbrains address=2600:9000:288b:6000::/64
 add list=jetbrains address=2600:9000:288b:6200::/64
 add list=jetbrains address=2600:9000:288b:6400::/64
 add list=jetbrains address=2600:9000:288b:6800::/64
+add list=jetbrains address=2600:9000:288b:6a00::/64
 add list=jetbrains address=2600:9000:288b:6c00::/64
 add list=jetbrains address=2600:9000:288b:6e00::/64
 add list=jetbrains address=2600:9000:288b:7200::/64
@@ -1382,6 +1392,7 @@ add list=jetbrains address=2600:9000:288b:8600::/64
 add list=jetbrains address=2600:9000:288b:8a00::/64
 add list=jetbrains address=2600:9000:288b:8c00::/64
 add list=jetbrains address=2600:9000:288b:8e00::/64
+add list=jetbrains address=2600:9000:288b:9000::/64
 add list=jetbrains address=2600:9000:288b:9200::/64
 add list=jetbrains address=2600:9000:288b:9400::/64
 add list=jetbrains address=2600:9000:288b:9600::/64
@@ -1439,12 +1450,14 @@ add list=jetbrains address=2600:9000:289d:1000::/64
 add list=jetbrains address=2600:9000:289d:1200::/64
 add list=jetbrains address=2600:9000:289d:1400::/64
 add list=jetbrains address=2600:9000:289d:1600::/64
+add list=jetbrains address=2600:9000:289d:1800::/64
 add list=jetbrains address=2600:9000:289d:1a00::/64
 add list=jetbrains address=2600:9000:289d:1c00::/64
 add list=jetbrains address=2600:9000:289d:1e00::/64
 add list=jetbrains address=2600:9000:289d:2000::/64
 add list=jetbrains address=2600:9000:289d:2200::/64
 add list=jetbrains address=2600:9000:289d:2400::/64
+add list=jetbrains address=2600:9000:289d:2600::/64
 add list=jetbrains address=2600:9000:289d:2800::/64
 add list=jetbrains address=2600:9000:289d:2a00::/64
 add list=jetbrains address=2600:9000:289d:2c00::/64
@@ -1491,6 +1504,7 @@ add list=jetbrains address=2600:9000:289d:8c00::/64
 add list=jetbrains address=2600:9000:289d:8e00::/64
 add list=jetbrains address=2600:9000:289d:9000::/64
 add list=jetbrains address=2600:9000:289d:9200::/64
+add list=jetbrains address=2600:9000:289d:9400::/64
 add list=jetbrains address=2600:9000:289d:9600::/64
 add list=jetbrains address=2600:9000:289d:9800::/64
 add list=jetbrains address=2600:9000:289d:9a00::/64
@@ -1526,6 +1540,7 @@ add list=jetbrains address=2600:9000:289d:e200::/64
 add list=jetbrains address=2600:9000:289d:e400::/64
 add list=jetbrains address=2600:9000:289d:e600::/64
 add list=jetbrains address=2600:9000:289d:e800::/64
+add list=jetbrains address=2600:9000:289d:ea00::/64
 add list=jetbrains address=2600:9000:289d:ec00::/64
 add list=jetbrains address=2600:9000:289d:ee00::/64
 add list=jetbrains address=2600:9000:289d:f000::/64
