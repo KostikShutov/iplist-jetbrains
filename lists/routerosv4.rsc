@@ -137,6 +137,7 @@ add list=jetbrains address=54.247.11.0/24
 add list=jetbrains address=54.247.100.0/24
 add list=jetbrains address=54.247.163.0/24
 add list=jetbrains address=54.247.173.0/24
+add list=jetbrains address=63.32.22.0/24
 add list=jetbrains address=63.34.99.0/24
 add list=jetbrains address=63.34.178.0/24
 add list=jetbrains address=63.34.189.0/24
