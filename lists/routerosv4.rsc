@@ -58,6 +58,7 @@ add list=jetbrains address=18.67.39.0/24
 add list=jetbrains address=18.67.65.0/24
 add list=jetbrains address=18.154.132.0/24
 add list=jetbrains address=18.154.185.0/24
+add list=jetbrains address=18.155.173.0/24
 add list=jetbrains address=18.155.192.0/24
 add list=jetbrains address=18.160.102.0/24
 add list=jetbrains address=18.160.143.0/24
@@ -74,6 +75,7 @@ add list=jetbrains address=18.202.51.0/24
 add list=jetbrains address=18.202.168.0/24
 add list=jetbrains address=18.203.43.0/24
 add list=jetbrains address=18.238.4.0/24
+add list=jetbrains address=18.238.109.0/24
 add list=jetbrains address=18.238.176.0/24
 add list=jetbrains address=18.238.192.0/24
 add list=jetbrains address=18.238.243.0/24
@@ -146,6 +148,7 @@ add list=jetbrains address=54.247.100.0/24
 add list=jetbrains address=54.247.163.0/24
 add list=jetbrains address=54.247.173.0/24
 add list=jetbrains address=63.32.22.0/24
+add list=jetbrains address=63.33.38.0/24
 add list=jetbrains address=63.34.99.0/24
 add list=jetbrains address=63.34.178.0/24
 add list=jetbrains address=63.34.189.0/24
