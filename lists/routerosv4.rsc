@@ -135,6 +135,7 @@ add list=jetbrains address=52.30.153.0/24
 add list=jetbrains address=52.31.108.0/24
 add list=jetbrains address=52.31.137.0/24
 add list=jetbrains address=52.48.178.0/24
+add list=jetbrains address=52.48.194.0/24
 add list=jetbrains address=52.49.28.0/24
 add list=jetbrains address=52.49.49.0/24
 add list=jetbrains address=52.49.72.0/24
