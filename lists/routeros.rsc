@@ -3832,6 +3832,7 @@ add list=jetbrains address=2600:9000:28bc:5800::/64
 add list=jetbrains address=2600:9000:28bc:5a00::/64
 add list=jetbrains address=2600:9000:28bc:5c00::/64
 add list=jetbrains address=2600:9000:28bc:5e00::/64
+add list=jetbrains address=2600:9000:28bc:6000::/64
 add list=jetbrains address=2600:9000:28bc:6200::/64
 add list=jetbrains address=2600:9000:28bc:6800::/64
 add list=jetbrains address=2600:9000:28bc:6a00::/64
