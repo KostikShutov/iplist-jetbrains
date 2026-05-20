@@ -208,6 +208,7 @@ add list=jetbrains address=54.170.138.0/24
 add list=jetbrains address=54.171.212.0/24
 add list=jetbrains address=54.192.117.0/24
 add list=jetbrains address=54.194.138.0/24
+add list=jetbrains address=54.194.174.0/24
 add list=jetbrains address=54.194.234.0/24
 add list=jetbrains address=54.195.142.0/24
 add list=jetbrains address=54.195.164.0/24
@@ -583,6 +584,7 @@ add list=jetbrains address=2600:9000:204d:6200::/64
 add list=jetbrains address=2600:9000:204d:7800::/64
 add list=jetbrains address=2600:9000:204d:b200::/64
 add list=jetbrains address=2600:9000:204d:f200::/64
+add list=jetbrains address=2600:9000:205f::/64
 add list=jetbrains address=2600:9000:205f:400::/64
 add list=jetbrains address=2600:9000:205f:600::/64
 add list=jetbrains address=2600:9000:205f:c00::/64
@@ -591,10 +593,12 @@ add list=jetbrains address=2600:9000:205f:1000::/64
 add list=jetbrains address=2600:9000:205f:1200::/64
 add list=jetbrains address=2600:9000:205f:1600::/64
 add list=jetbrains address=2600:9000:205f:1800::/64
+add list=jetbrains address=2600:9000:205f:2400::/64
 add list=jetbrains address=2600:9000:205f:2a00::/64
 add list=jetbrains address=2600:9000:205f:3400::/64
 add list=jetbrains address=2600:9000:205f:3a00::/64
 add list=jetbrains address=2600:9000:205f:4a00::/64
+add list=jetbrains address=2600:9000:205f:4e00::/64
 add list=jetbrains address=2600:9000:205f:5000::/64
 add list=jetbrains address=2600:9000:205f:5400::/64
 add list=jetbrains address=2600:9000:205f:5e00::/64
@@ -3853,6 +3857,7 @@ add list=jetbrains address=2600:9000:28b9:4e00::/64
 add list=jetbrains address=2600:9000:28b9:6e00::/64
 add list=jetbrains address=2600:9000:28bc::/64
 add list=jetbrains address=2600:9000:28bc:400::/64
+add list=jetbrains address=2600:9000:28bc:600::/64
 add list=jetbrains address=2600:9000:28bc:800::/64
 add list=jetbrains address=2600:9000:28bc:a00::/64
 add list=jetbrains address=2600:9000:28bc:c00::/64
@@ -3875,6 +3880,7 @@ add list=jetbrains address=2600:9000:28bc:3200::/64
 add list=jetbrains address=2600:9000:28bc:3400::/64
 add list=jetbrains address=2600:9000:28bc:3600::/64
 add list=jetbrains address=2600:9000:28bc:3800::/64
+add list=jetbrains address=2600:9000:28bc:3a00::/64
 add list=jetbrains address=2600:9000:28bc:3c00::/64
 add list=jetbrains address=2600:9000:28bc:3e00::/64
 add list=jetbrains address=2600:9000:28bc:4000::/64
@@ -3894,6 +3900,7 @@ add list=jetbrains address=2600:9000:28bc:5c00::/64
 add list=jetbrains address=2600:9000:28bc:5e00::/64
 add list=jetbrains address=2600:9000:28bc:6000::/64
 add list=jetbrains address=2600:9000:28bc:6200::/64
+add list=jetbrains address=2600:9000:28bc:6400::/64
 add list=jetbrains address=2600:9000:28bc:6800::/64
 add list=jetbrains address=2600:9000:28bc:6a00::/64
 add list=jetbrains address=2600:9000:28bc:6c00::/64
@@ -3935,6 +3942,7 @@ add list=jetbrains address=2600:9000:28bc:be00::/64
 add list=jetbrains address=2600:9000:28bc:c000::/64
 add list=jetbrains address=2600:9000:28bc:c200::/64
 add list=jetbrains address=2600:9000:28bc:c400::/64
+add list=jetbrains address=2600:9000:28bc:c600::/64
 add list=jetbrains address=2600:9000:28bc:c800::/64
 add list=jetbrains address=2600:9000:28bc:ca00::/64
 add list=jetbrains address=2600:9000:28bc:cc00::/64
@@ -3944,6 +3952,7 @@ add list=jetbrains address=2600:9000:28bc:d200::/64
 add list=jetbrains address=2600:9000:28bc:d400::/64
 add list=jetbrains address=2600:9000:28bc:d800::/64
 add list=jetbrains address=2600:9000:28bc:da00::/64
+add list=jetbrains address=2600:9000:28bc:de00::/64
 add list=jetbrains address=2600:9000:28bc:e000::/64
 add list=jetbrains address=2600:9000:28bc:e200::/64
 add list=jetbrains address=2600:9000:28bc:e400::/64
