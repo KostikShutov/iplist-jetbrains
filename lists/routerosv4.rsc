@@ -180,6 +180,7 @@ add list=jetbrains address=52.84.199.0/24
 add list=jetbrains address=52.85.47.0/24
 add list=jetbrains address=52.85.151.0/24
 add list=jetbrains address=52.85.193.0/24
+add list=jetbrains address=52.208.64.0/24
 add list=jetbrains address=52.208.189.0/24
 add list=jetbrains address=52.209.42.0/24
 add list=jetbrains address=52.209.55.0/24
