@@ -6,7 +6,7 @@ We use DNS Lookups to achieve this and the lists are automatically updated appro
 The project is currently **STABLE BETA.**
 So, not all IPs might be available.
 At present, it has a collection of
-**5214**
+**5215**
 JetBrains IPs.
 
 # Lists
