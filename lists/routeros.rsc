@@ -146,6 +146,7 @@ add list=jetbrains address=34.253.78.0/24
 add list=jetbrains address=34.253.127.0/24
 add list=jetbrains address=34.253.244.0/24
 add list=jetbrains address=34.254.20.0/24
+add list=jetbrains address=34.254.115.0/24
 add list=jetbrains address=34.254.126.0/24
 add list=jetbrains address=34.254.142.0/24
 add list=jetbrains address=34.255.106.0/24
@@ -157,6 +158,7 @@ add list=jetbrains address=46.51.147.0/24
 add list=jetbrains address=46.51.159.0/24
 add list=jetbrains address=46.137.133.0/24
 add list=jetbrains address=52.16.222.0/24
+add list=jetbrains address=52.17.65.0/24
 add list=jetbrains address=52.17.155.0/24
 add list=jetbrains address=52.18.17.0/24
 add list=jetbrains address=52.18.30.0/24
@@ -798,6 +800,7 @@ add list=jetbrains address=2600:9000:207c:400::/64
 add list=jetbrains address=2600:9000:207c:800::/64
 add list=jetbrains address=2600:9000:207c:a00::/64
 add list=jetbrains address=2600:9000:207c:c00::/64
+add list=jetbrains address=2600:9000:207c:1200::/64
 add list=jetbrains address=2600:9000:207c:1400::/64
 add list=jetbrains address=2600:9000:207c:1600::/64
 add list=jetbrains address=2600:9000:207c:1a00::/64
@@ -829,6 +832,7 @@ add list=jetbrains address=2600:9000:207c:6200::/64
 add list=jetbrains address=2600:9000:207c:6600::/64
 add list=jetbrains address=2600:9000:207c:6800::/64
 add list=jetbrains address=2600:9000:207c:6a00::/64
+add list=jetbrains address=2600:9000:207c:6e00::/64
 add list=jetbrains address=2600:9000:207c:7000::/64
 add list=jetbrains address=2600:9000:207c:7400::/64
 add list=jetbrains address=2600:9000:207c:7600::/64
@@ -861,6 +865,7 @@ add list=jetbrains address=2600:9000:207c:b400::/64
 add list=jetbrains address=2600:9000:207c:b600::/64
 add list=jetbrains address=2600:9000:207c:b800::/64
 add list=jetbrains address=2600:9000:207c:be00::/64
+add list=jetbrains address=2600:9000:207c:c000::/64
 add list=jetbrains address=2600:9000:207c:c400::/64
 add list=jetbrains address=2600:9000:207c:c600::/64
 add list=jetbrains address=2600:9000:207c:c800::/64
