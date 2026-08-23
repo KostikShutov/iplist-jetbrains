@@ -70,6 +70,7 @@ add list=jetbrains address=13.35.196.0/24
 add list=jetbrains address=13.35.238.0/24
 add list=jetbrains address=13.224.214.0/24
 add list=jetbrains address=13.225.47.0/24
+add list=jetbrains address=13.225.61.0/24
 add list=jetbrains address=13.225.196.0/24
 add list=jetbrains address=13.226.251.0/24
 add list=jetbrains address=13.227.74.0/24
@@ -360,6 +361,14 @@ add list=jetbrains address=216.137.39.0/24
 
 /ipv6 firewall address-list
 remove [find list=jetbrains]
+add list=jetbrains address=2600:9000:200b:2a00::/64
+add list=jetbrains address=2600:9000:200b:3800::/64
+add list=jetbrains address=2600:9000:200b:6600::/64
+add list=jetbrains address=2600:9000:200b:6e00::/64
+add list=jetbrains address=2600:9000:200b:9000::/64
+add list=jetbrains address=2600:9000:200b:c800::/64
+add list=jetbrains address=2600:9000:200b:cc00::/64
+add list=jetbrains address=2600:9000:200b:e400::/64
 add list=jetbrains address=2600:9000:2014:2400::/64
 add list=jetbrains address=2600:9000:2014:5800::/64
 add list=jetbrains address=2600:9000:2014:6800::/64
@@ -4531,14 +4540,18 @@ add list=jetbrains address=2600:9000:287f:4a00::/64
 add list=jetbrains address=2600:9000:287f:4c00::/64
 add list=jetbrains address=2600:9000:287f:4e00::/64
 add list=jetbrains address=2600:9000:287f:5000::/64
+add list=jetbrains address=2600:9000:287f:5200::/64
+add list=jetbrains address=2600:9000:287f:5600::/64
 add list=jetbrains address=2600:9000:287f:5a00::/64
 add list=jetbrains address=2600:9000:287f:5e00::/64
 add list=jetbrains address=2600:9000:287f:6000::/64
+add list=jetbrains address=2600:9000:287f:6600::/64
 add list=jetbrains address=2600:9000:287f:6800::/64
 add list=jetbrains address=2600:9000:287f:6c00::/64
 add list=jetbrains address=2600:9000:287f:7800::/64
 add list=jetbrains address=2600:9000:287f:8200::/64
 add list=jetbrains address=2600:9000:287f:8400::/64
+add list=jetbrains address=2600:9000:287f:8600::/64
 add list=jetbrains address=2600:9000:287f:8800::/64
 add list=jetbrains address=2600:9000:287f:8c00::/64
 add list=jetbrains address=2600:9000:287f:8e00::/64
