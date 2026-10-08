@@ -1060,6 +1060,7 @@ add list=jetbrains address=2600:9000:207c:9e00::/64
 add list=jetbrains address=2600:9000:207c:a000::/64
 add list=jetbrains address=2600:9000:207c:a200::/64
 add list=jetbrains address=2600:9000:207c:a400::/64
+add list=jetbrains address=2600:9000:207c:a600::/64
 add list=jetbrains address=2600:9000:207c:a800::/64
 add list=jetbrains address=2600:9000:207c:aa00::/64
 add list=jetbrains address=2600:9000:207c:ac00::/64
