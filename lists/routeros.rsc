@@ -299,6 +299,7 @@ add list=jetbrains address=54.220.78.0/24
 add list=jetbrains address=54.220.103.0/24
 add list=jetbrains address=54.220.141.0/24
 add list=jetbrains address=54.222.161.0/24
+add list=jetbrains address=54.222.163.0/24
 add list=jetbrains address=54.223.4.0/24
 add list=jetbrains address=54.223.50.0/24
 add list=jetbrains address=54.223.183.0/24
